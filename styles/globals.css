@@ -1,16 +1,52 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.colored {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.colored:nth-child(1) {
+  /* background: #f1ffe7; */
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/fdedb888-973c-45ec-965c-0958d39d08b4/bvlatuR/std/600x1576/M3-Homepage-M");
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  /* height: 100%; */
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.colored:nth-child(2) {
+  /* background: #dfffd9; */
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/3304be3b-dd0a-4128-9c26-eb61c0b98d61/bvlatuR/std/800x2100/Mobile-ModelY");
+}
+.colored:nth-child(3) {
+  /* background: #cdfeca; */
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/ba3606ef-ce2d-41e4-90aa-bb13d767bb1a/bvlatuR/std/1000x1576/ms-homepage-mobile");
+}
+.colored:nth-child(4) {
+  /* background: #bbfebb; */
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/06e710a1-0428-45e9-8945-580e80d77b55/bvlatuR/std/2880x1800/MS-Performance-Hero-Desktop");
+}
+.colored:nth-child(5) {
+  /* background: #a9fdac; */
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/0cf18940-c0bf-45f7-b2d8-46c3bc693c65/bvlatuR/std/0x0/model-y_R1@2");
+}
+.colored:nth-child(6) {
+  /* background: #90f29c; */
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/0968fb11-4fa3-4570-89d6-0631ef64a427/bvlatuR/std/800x1700/MX-Hero-Mobile");
+}
+.colored:nth-child(7) {
+  /* background: #77e68c; */
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/e13368c8-5657-468e-aa16-a28d9dc763c6/bvlatuR/std/2880x1800/MX-Performance-Hero-Desktop");
+}
+.white {
+  background: #fff;
+  color: 1a1720;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 * {
-  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }

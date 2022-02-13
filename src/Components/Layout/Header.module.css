@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  padding: 12px 30px;
+  z-index: 1000;
+}
+.container img {
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+}
+.menu {
+  cursor: pointer;
+}
