@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   const models = [
-    "Model One",
+    "Model one",
     "Model Two",
     "Model Three",
     "Model Four",

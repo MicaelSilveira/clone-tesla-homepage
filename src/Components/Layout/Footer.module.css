@@ -23,7 +23,7 @@
   margin: 5px;
 }
 .container li:hover {
-  color: darkslateblue;
+  color: #fff;
 }
 @media (min-width: 600px) {
   .container ul {
