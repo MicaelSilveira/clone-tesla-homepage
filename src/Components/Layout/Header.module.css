@@ -7,6 +7,24 @@
   padding: 12px 30px;
   z-index: 1000;
 }
+.buttonMenu {
+  width: 80px;
+  font-size: 15px;
+  font-family: "Roboto";
+  height: 30px;
+  background: transparent;
+  border: rgb(167, 158, 158) solid 1px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: #333;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.buttonMenu:hover {
+  background: rgba(246, 246, 246, 0.616);
+  transition: 0.5s;
+}
 .container img {
   width: 100px;
   height: 25px;

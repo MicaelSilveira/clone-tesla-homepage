@@ -5,35 +5,43 @@
   flex: 1;
 }
 .header {
-  margin-top: 16.5vh;
+  margin-top: 16vh;
   text-align: center;
 }
 .header h1 {
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
-  color: rgb(27, 26, 26);
+  color: rgb(58, 57, 57);
+  margin-bottom: 2px;
+  letter-spacing: 1px;
 }
 .header h2 {
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  color: rgb(83, 74, 74);
+  color: rgb(37, 34, 34);
+  letter-spacing: 2px;
 }
+
 .buttons {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 130px;
+  gap: 12px;
 }
 .buttons button {
-  margin: 10px 0 0;
+  width: 240px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  /* margin: 500px; */
 }
+
 .button {
   background: #1a1720;
   color: #fff;
-  opacity: 0.9;
+  opacity: 0.95;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.4px;
